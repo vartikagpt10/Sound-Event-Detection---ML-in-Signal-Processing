@@ -23,7 +23,8 @@ Angular requires an active LTS or maintenance LTS version of Node.js.
 
 + Run `git clone`<url> in the terminal of your editor to clone this repository.
 + Go to the `cd bine-crm` directory.
-+ `git checkout sprint-5` and install angular CLI for this project in this directory by running the command `npm install -g @angular/cli`.
++ `git checkout sprint-5` and execute `cd blendnet.cms.web.ui` to work in the CMS directory.
++  Install angular CLI for this project in this directory by running the command `npm install -g @angular/cli`.
 
 ## Development server
 
