@@ -10,7 +10,20 @@ To use Angular framework on your local machine, you need to install the followin
 
 ### Node.js
 
-Angular requires an active LTS or maintenance LTS version of Node.js.
+Angular requires an active LTS or maintenance LTS version of Node.js. 
++ Download [Node.js](https://nodejs.org/en/download/) for Windows by clicking the "Windows Installer" option.
++ Run the downloaded Node.js `.msi` Installer - including accepting the license, selecting the destination, and authenticating for the install. This requires Administrator privileges, and you may need to authenticate.
++ To ensure Node.js has been installed, run `node -v` in your terminal and confirm the version installed.
+
+### npm Package Manager
+
++ Update your version of npm with `npm install npm --global`. This requires Administrator privileges, and you may need to authenticate.
+
+### Angular CLI
+
++ Run `git clone`<url> in the terminal of your editor to clone this repository.
++ Go to the `cd bine-crm` directory.
++ `git checkout sprint-5` and install angular CLI for this project in this directory by running the command `npm install -g @angular/cli`.
 
 ## Development server
 
